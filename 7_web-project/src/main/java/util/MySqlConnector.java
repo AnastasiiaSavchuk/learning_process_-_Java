@@ -14,7 +14,7 @@ public class MySqlConnector {
     private static final String URL = "jdbc:mysql://localhost/web_project?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
     private static final String USER = "root";
-    private static final String PASSWORD = "140418nD";
+    private static final String PASSWORD = "";
 
     public static Connection getConnection() {
         Connection connection = null;

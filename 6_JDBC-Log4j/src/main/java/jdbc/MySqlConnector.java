@@ -11,10 +11,10 @@ public class MySqlConnector {
     private static final Logger logger = Logger.getLogger(MySqlConnector.class);
 
     private static final String MYSQL_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost/library_tables?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    private static final String URL = "jdbc:mysql://localhost/library?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
     private static final String USER = "root";
-    private static final String PASSWORD = "140418nD";
+    private static final String PASSWORD = "";
 
     public static Connection getConnection() {
         Connection connection = null;

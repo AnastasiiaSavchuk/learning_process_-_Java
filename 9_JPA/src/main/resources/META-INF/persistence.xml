@@ -15,9 +15,9 @@
 
             <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
             <property name="hibernate.connection.username" value="root"/>
-            <property name="hibernate.connection.password" value="140418nD"/>
+            <property name="hibernate.connection.password" value=""/>
             <property name="hibernate.connection.url"
-                      value="jdbc:mysql://localhost:3306/web_project?serverTimezone=UTC"/>
+                      value="jdbc:mysql://localhost:3306/spring?serverTimezone=UTC"/>
         </properties>
     </persistence-unit>
 </persistence>
