@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="model.Item" table="item">
+        <id name="id" type="int" column="item_id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="total" column="item_total" type="java.lang.String"/>
+
+        <set name="carts" table="cart_item" inverse="true" fetch="select" lazy="true" cascade="all">
+            <key>
+                <column name="item_id" not-null="true"/>
+            </key>
+            <many-to-many entity-name="model.Cart">
+                <column name="cart_id" not-null="true"/>
+            </many-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

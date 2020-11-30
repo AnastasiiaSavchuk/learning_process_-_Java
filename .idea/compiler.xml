@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="10_Hibernate" />
+        <module name="13_Spring-Data-JPA" />
+        <module name="14_Spring-MVS" />
+        <module name="5_JUnit" />
+        <module name="8_web-project-JSP" />
+        <module name="6_JDBC-Log4j" />
+        <module name="9_JPA" />
+        <module name="7_web-project" />
+        <module name="11_Hibernate-Mapping" />
+        <module name="15_Spring-File-Upload" />
+        <module name="12_Spring-Core" />
+        <module name="16_Spring-Security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="10_Hibernate" target="1.8" />
+      <module name="11_Hibernate-Mapping" target="1.8" />
+      <module name="12_Spring-Core" target="1.8" />
+      <module name="13_Spring-Data-JPA" target="1.8" />
+      <module name="14_Spring-MVS" target="1.8" />
+      <module name="15_Spring-File-Upload" target="1.8" />
+      <module name="16_Spring-Security" target="1.8" />
+      <module name="5_JUnit" target="1.8" />
+      <module name="6_JDBC-Log4j" target="1.8" />
+      <module name="6_JDBC_Log4j" target="1.8" />
+      <module name="7_web-project" target="8" />
+      <module name="8_web-project-JSP" target="8" />
+      <module name="9_JPA" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="12_Spring-Core" options="-parameters" />
+      <module name="13_Spring-Data-JPA" options="-parameters" />
+      <module name="14_Spring-MVS" options="-parameters" />
+      <module name="15_Spring-File-Upload" options="-parameters" />
+      <module name="16_Spring-Security" options="-parameters" />
+    </option>
+  </component>
+</project>

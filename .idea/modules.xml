@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_Hibernate/10_Hibernate.iml" filepath="$PROJECT_DIR$/10_Hibernate/10_Hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Hibernate-Mapping/11_Hibernate-Mapping.iml" filepath="$PROJECT_DIR$/11_Hibernate-Mapping/11_Hibernate-Mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_Spring-Core/12_Spring-Core.iml" filepath="$PROJECT_DIR$/12_Spring-Core/12_Spring-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Spring-Data-JPA/13_Spring-Data-JPA.iml" filepath="$PROJECT_DIR$/13_Spring-Data-JPA/13_Spring-Data-JPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Spring-MVS/14_Spring-MVS.iml" filepath="$PROJECT_DIR$/14_Spring-MVS/14_Spring-MVS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_Spring-File-Upload/15_Spring-File-Upload.iml" filepath="$PROJECT_DIR$/15_Spring-File-Upload/15_Spring-File-Upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16_Spring-Security/16_Spring-Security.iml" filepath="$PROJECT_DIR$/16_Spring-Security/16_Spring-Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_JUnit/5_JUnit.iml" filepath="$PROJECT_DIR$/5_JUnit/5_JUnit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_JDBC-Log4j/6_JDBC-Log4j.iml" filepath="$PROJECT_DIR$/6_JDBC-Log4j/6_JDBC-Log4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_web-project/7_web-project.iml" filepath="$PROJECT_DIR$/7_web-project/7_web-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8_web-project-JSP/8_web-project-JSP.iml" filepath="$PROJECT_DIR$/8_web-project-JSP/8_web-project-JSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9_JPA/9_JPA.iml" filepath="$PROJECT_DIR$/9_JPA/9_JPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning_process_-_Java.iml" filepath="$PROJECT_DIR$/learning_process_-_Java.iml" />
     </modules>
   </component>

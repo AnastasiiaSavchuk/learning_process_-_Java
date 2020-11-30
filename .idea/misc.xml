@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/7_web-project" />
+    <file type="web" url="file://$PROJECT_DIR$/8_web-project-JSP" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/JUnit/pom.xml" />
+        <option value="$PROJECT_DIR$/JDBC_Log4j/pom.xml" />
+        <option value="$PROJECT_DIR$/5_JUnit/pom.xml" />
+        <option value="$PROJECT_DIR$/6_JDBC-Log4j/pom.xml" />
+        <option value="$PROJECT_DIR$/7_web-project/pom.xml" />
+        <option value="$PROJECT_DIR$/8_web-project-JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/8_web-project-JSP/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/9_JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/12_Spring-Core/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Hibernate-Mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Spring-Data-JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Spring-MVS/pom.xml" />
+        <option value="$PROJECT_DIR$/15_Spring-File-Upload/pom.xml" />
+        <option value="$PROJECT_DIR$/16_Spring-Security/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

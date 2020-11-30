@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+#myInput {
+    padding: 0 20px !important;
+    margin-top: 5%;
+    min-height: 30px;
+    height: auto;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 14px !important;
+    border: 2px solid #00796b !important;
+    border-radius: 50px !important;
+}
+
+body {
+    color: #404E67;
+    background: #F5F7FA;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.table-wrapper {
+    width: 100%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+}
+
+.table-title {
+    padding-bottom: 10px;
+}
+
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+
+table.table {
+    table-layout: fixed;
+}
+
+table.table tr th {
+    text-align: center;
+    border-color: #00796b;
+}
+
+table.table tr td {
+    border-color: #00796b;
+}
+
+table.table th:last-child {
+    width: 100px;
+}
+
+table.table td button, table.table td button:focus, table.table td button:active {
+    border: none;
+    outline: none;
+    margin: 0 auto;
+
+
+    min-width: 100%;
+}
+
+table.table td i {
+    margin: 0 auto !important;
+    font-size: 19px;
+    color: #E34724;
+}
+
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}

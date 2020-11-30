@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/12_Spring-Core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13_Spring-Data-JPA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14_Spring-MVS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15_Spring-File-Upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16_Spring-Security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7_web-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7_web-project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8_web-project-JSP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8_web-project-JSP/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

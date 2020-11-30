@@ -1,0 +1,48 @@
+#createForm {
+    margin-top: 3%;
+}
+
+#createForm .form-wrap {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#createForm h1 {
+    color: #00796b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#createForm .form-group {
+    margin-bottom: 25px;
+}
+
+.btn.btn-custom {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.forget {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+}
+
+.form-control {
+    color: #212121;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #004c40;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+}

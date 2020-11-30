@@ -1,0 +1,4 @@
+Application.class
+model\Comment.class
+util\UtilSessionFactory.class
+model\Post.class

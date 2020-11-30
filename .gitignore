@@ -1,5 +1,5 @@
 # Project exclude paths
-/JS/calculator/node_modules/
-/JS/rest_http/node_modules/
-/JS/rest_http_ajax/node_modules/
+/3_JS/calculator/node_modules/
+/3_JS/rest_http/node_modules/
+/3_JS/rest_http_ajax/node_modules/
 /out/
