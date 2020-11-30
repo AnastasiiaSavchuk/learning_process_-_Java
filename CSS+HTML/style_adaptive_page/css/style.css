@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: "Bilbo-Regular";
+    src: url(../fonts/Bilbo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "alpha_echo";
+    src: url(../fonts/alpha_echo.ttf);
+}
+
+.name {
+    font-family: "alpha_echo", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.letters {
+    font-size: 30px;
+}
+
+nav {
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    margin: 1%;
+    padding: 1% 2%;
+}
+
+header a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: #b3b3b3;
+}
+
+header a:hover {
+    font-weight: bold;
+}
+
+.news {
+    padding: 20% 35%;
+    background: #cc0044;
+    color: white;
+    border-radius: 4px;
+}
+
+main {
+    background: white;
+    display: flex;
+    align-items: stretch;
+    padding: 30px 10%;
+    justify-content: space-between;
+}
+
+article {
+    width: 63%;
+    padding: 25px;
+    margin-right: 7%;
+}
+
+div.bar {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside {
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+main img {
+    width: 100%;
+}
+
+aside img {
+    width: 100%;
+}
+
+main button {
+    width: 50%;
+    padding: 3%;
+    margin: 4%;
+    background: black;
+    font-family: "Arial Regular", sans-serif;
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+main h2 {
+    font-family: "Arial Regular", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 2%;
+}
+
+main h3 {
+    font-family: "Bilbo-Regular", cursive;
+    font-size: 26px;
+    font-weight: lighter;
+    color: #5e5959;
+    letter-spacing: 2px;
+    margin: 2%;
+}
+
+main h4 {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 2%;
+}
+
+main p {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 16px;
+    color: #5e5959;
+    line-height: 200%;
+    margin: 2%;
+}
+
+main a {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 16px;
+    color: red;
+    margin: 4%;
+    line-height: 150%;
+}
+
+main a:hover {
+    text-decoration: none;
+}
+
+aside hr {
+    margin: 4%;
+}
+
+.footer {
+    width: 100%;
+    clear: both;
+    background: #262626;
+}
+
+footer div {
+    width: 30%;
+    float: left;
+    padding: 1% 1% 1% 5%;
+    box-sizing: border-box;
+}
+
+footer h1 {
+    font-family: "Arial Regular", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 5%;
+    margin-left: 15%;
+}
+
+footer a {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 14px;
+    color: #a8a8a8;
+    line-height: 150%;
+    margin-left: 15%;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer hr {
+    color: #a8a8a8;
+    margin-left: 15%;
+}
+
+footer img {
+    width: 10%;
+}
+
+footer nav a {
+    margin-left: 1%;
+    padding: 3%;
+}
+
+footer h5 {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 14px;
+    color: white;
+    float: left;
+    line-height: 80%;
+    margin-left: 10%;
+}
+
+footer li {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 14px;
+    color: #4d4d4d;
+    text-align: left;
+    margin-left: 50%;
+    line-height: 150%;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #4d4d4d;
+}

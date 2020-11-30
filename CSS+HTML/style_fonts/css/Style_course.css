@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Caveat-Bold";
+    src: url(../fonts/Caveat-Bold.ttf);
+}
+
+.top {
+    font-family: "Caveat-Bold", cursive;
+    color: blue;
+}
+
+.bottom {
+    color: gray;
+}
+
+span {
+    color: red;
+}

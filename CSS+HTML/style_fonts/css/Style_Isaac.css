@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Caveat-Bold";
+    src: url(../fonts/Caveat-Bold.ttf);
+}
+
+h1 {
+    font-family: "Caveat-Bold", cursive;
+    color: darkslategray;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+span {
+    text-decoration-line: underline;
+}

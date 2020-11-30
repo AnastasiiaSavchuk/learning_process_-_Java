@@ -1,0 +1,25 @@
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+    }
+
+    article {
+        order: 2;
+        width: 100%;
+    }
+
+    div.bar {
+        flex-direction: row;
+        width: 100%;
+        order: 1;
+    }
+
+    footer div {
+        width: 40%;
+        padding: 1% 0 1% 5%;
+    }
+
+    .three {
+        margin-left: 20%;
+    }
+}

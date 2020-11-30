@@ -1,0 +1,19 @@
+@media screen and (max-width: 1170px) {
+
+    footer div {
+        width: 40%;
+        padding: 1% 0 1% 5%;
+    }
+
+    .one {
+        margin-left: 2%;
+    }
+
+    .three {
+        margin-left: 23%;
+    }
+
+    footer li {
+        margin-left: 50%;
+    }
+}

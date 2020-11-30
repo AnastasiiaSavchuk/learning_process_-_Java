@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+    header li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news {
+        padding: 2% 15%;
+    }
+
+    footer div {
+        width: 80%;
+        padding: 1% 0 1% 5%;
+    }
+
+    footer hr {
+        margin-right: 10%;
+    }
+
+    .two {
+        margin-left: 2%
+    }
+
+    footer li {
+        margin-left: 45%;
+    }
+}

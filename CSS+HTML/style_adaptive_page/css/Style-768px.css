@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+    div.bar {
+        flex-direction: column;
+    }
+
+    footer div {
+        width: 80%;
+        padding: 1% 0 1% 5%;
+    }
+
+    .two {
+        margin-left: 2%
+    }
+
+    .three {
+        margin-left: 2%;
+    }
+
+    footer nav {
+        margin-left: 5%;
+    }
+
+    footer h5 {
+        margin-left: 15%;
+    }
+
+    footer li {
+        margin-left: 65%;
+    }
+}

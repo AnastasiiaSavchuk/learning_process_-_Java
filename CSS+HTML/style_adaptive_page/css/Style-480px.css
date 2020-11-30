@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) and (min-width: 350px) {
+    footer div {
+        width: 80%;
+        padding: 1% 0 1% 5%;
+    }
+
+    footer hr {
+        margin-right: 10%;
+    }
+
+
+    .two {
+        margin-left: 2%
+    }
+
+    h5 {
+        margin-left: -4%;
+    }
+
+    footer li {
+        margin-left: 35%;
+    }
+}

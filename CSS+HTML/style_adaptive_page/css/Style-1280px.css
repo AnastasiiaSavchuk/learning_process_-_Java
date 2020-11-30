@@ -1,0 +1,49 @@
+@media screen and (max-width: 1280px) {
+
+    article{
+        width: 63%;
+        margin-right: 3%;
+    }
+
+    div.bar{
+        width: 34%;
+    }
+
+    footer div {
+        width: 31%;
+        padding: 1% 0 1% 5%;
+    }
+
+    footer li {
+        margin-left: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

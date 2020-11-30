@@ -1,0 +1,62 @@
+body {
+    position: relative;
+    background: powderblue;
+}
+
+ul.menu1 li {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: -2px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+ul.menu1 a {
+    text-decoration: none;
+    display: block;
+    color: darkblue;
+}
+
+.menu1 li {
+    text-decoration: none;
+    padding: 10px 140px;
+    display: inline-block;
+}
+
+a:link {
+    color: blueviolet !important;
+}
+
+a:hover {
+    color: darkred !important;
+}
+
+a:visited {
+    color: black;
+}
+
+.menu2 {
+    font-family: cursive;
+}
+
+img {
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    clear: both;
+    color: blue;
+    line-height: 12px;
+}
+
+p {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 14px;
+}

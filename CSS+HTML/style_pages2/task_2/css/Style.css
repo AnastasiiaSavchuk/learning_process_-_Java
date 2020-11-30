@@ -1,0 +1,58 @@
+.box {
+    text-align: center;
+    border: double 4px black;
+    background: beige;
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px;
+    padding-left: 22px;
+}
+
+.start1 li {
+    background: url(../images/checked.png) no-repeat;
+}
+
+.start1 li:hover {
+    background: url(../images/checked-hover.png) no-repeat;
+}
+
+.start2 li::before {
+    content: "⯈⯇";
+    color: blue;
+}
+
+.start2 li:hover::before {
+    content: "⯈⯇";
+    color: red;
+}
+
+.start3 li::before {
+    content: "🗹";
+    color: peru;
+}
+
+.start3 li:hover::before {
+    content: "🗹";
+    color: red;
+}
+
+
+
+
