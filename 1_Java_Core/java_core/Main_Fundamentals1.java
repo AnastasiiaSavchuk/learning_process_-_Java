@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.lang.Math.abs;
 
-public class MainFirst {
+public class Main_Fundamentals1 {
 
     public static void main(String[] args) {
 

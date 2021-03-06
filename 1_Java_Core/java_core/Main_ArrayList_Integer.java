@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class MainIntegerArrayList {
+public class Main_ArrayList_Integer {
 
     public static void main(String[] args) {
 

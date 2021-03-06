@@ -2,7 +2,7 @@ package java_core;
 
 import java.util.Scanner;
 
-public class MainThird {
+public class Main_fundamentals3 {
     public static void main(String[] args) {
 
         firstHome();

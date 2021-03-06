@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class MainSecond {
+public class Main_fundamentals2 {
 
     public static void main(String[] args) {
 
@@ -147,14 +147,13 @@ public class MainSecond {
     //10
     public static void oneHundredElements() {
         System.out.println(" № 10.");
-        int[] number = new int[100];
+        int[] number = new int[1000];
 
-        for (int i = 1; i < +100; i++) {
+        for (int i = 1; i <1000; i++) {
             number[i] = i;
-        }
-        for (int i = 14; i < number.length; i += 14) {
-            if (number[i] % 14 == 0) ;
-            System.out.print(" " + number[i] + "");
+            if (number[i] % 14 == 0) {
+                System.out.print(" " + number[i] + "");
+            }
         }
         System.out.println();
     }

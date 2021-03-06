@@ -22,7 +22,7 @@ public class Main {
 
         Transaction transaction = session.beginTransaction();
 
-        Cart cart1 = new Cart("total-cart-1", "name-1");
+        /*Cart cart1 = new Cart("total-cart-1", "name-1");
         Item item1 = new Item("total-item-1");
         Item item2 = new Item("total-item-2");
         Item item3 = new Item("total-item-3");
@@ -39,7 +39,9 @@ public class Main {
         cart2.setItems(new HashSet<>(Arrays.asList(item5, item6, item7, item8)));
 
         session.persist(cart1);
-        session.persist(cart2);
+        session.persist(cart2);*/
+
+        cartService.readAll().forEach(System.out::println);
 
         transaction.commit();
         session.close();

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class MainStringArrayList {
+public class Main_ArrayList_String {
 
     public static void main(String[] args) {
         System.out.println("Enter your 5 words : ");

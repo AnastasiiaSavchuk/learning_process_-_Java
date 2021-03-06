@@ -2,7 +2,7 @@ package java_core;
 
 import java.util.Scanner;
 
-public class MainString {
+public class Main_String {
 
     public static void main(String[] args) {
 
